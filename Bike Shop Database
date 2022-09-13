@@ -1,0 +1,17 @@
+CREATE TABLE bikes (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, rating INTEGER, price INTEGER);
+INSERT INTO bikes VALUES(1, "Red bike", 3,7,50);
+INSERT INTO bikes VALUES(2, "blue bike",5,9,55);
+INSERT INTO bikes VALUES(3,"orange bike",7,8,45);
+INSERT INTO bikes VALUES(4,"yellow bike",5,4,55);
+INSERT INTO bikes VALUES(5,"neon bike",6,3,60);
+INSERT INTO bikes VALUES(6,"black bike",3,2,56);
+INSERT INTO bikes VALUES(7,"reddish bike",7,5,34);
+INSERT INTO bikes VALUES(8,"blackish bike",5,3,76);
+INSERT INTO bikes VALUES(9,"purple bike",7,3,65);
+INSERT INTO bikes VALUES(10,"tan bike",5,4,25);
+INSERT INTO bikes VALUES(11,"white bike",7,4,77);
+INSERT INTO bikes VALUES(12,"brown bike",9,3,67);
+INSERT INTO bikes VALUES(13,"pink bike",4,7,48);
+INSERT INTO bikes VALUES(14,"bluish bike",4,7,55);
+INSERT INTO bikes VALUES(15,"rainbow bike",5,6,87);
+SELECT SUM(price) FROM bikes;
